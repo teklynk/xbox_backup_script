@@ -29,6 +29,6 @@ then
   echo "Backup completed"
   exit
 else
-  echo "Directory not found"
+  echo "$backup_dir&xbox_ip/F Directory not found"
   exit
 fi
