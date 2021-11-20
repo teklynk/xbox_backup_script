@@ -13,7 +13,7 @@ backup_dir="/mnt/BACKUPS/XBOX/"
 backup_log="/home/server1/logs/xbox_backup.log"
 
 ### Backup more Xbox directories and partitions
-The script will mainly backup the E and F/games partitions but if you want to backup other locations you can add them to the script. Uncomment and modify these lines.
+The script will mainly backup the E and F partitions but if you want to backup other locations you can add them to the script. Uncomment and modify these lines.
 
 ```
   #sleep 3
