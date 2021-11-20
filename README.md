@@ -17,10 +17,10 @@ The script will mainly backup the E and F/games partitions but if you want to ba
 
 ```
   #sleep 3
-  #wget -m --user=$xbox_ftp_username --password=$xbox_ftp_password ftp://$xbox_ip/F/roms
+  #wget -m --user=$xbox_ftp_username --password=$xbox_ftp_password ftp://$xbox_ip/F/roms 2>&1 | tee -a $backup_log
   #echo "backup of roms: completed"
   #sleep 3
-  #wget -m --user=$xbox_ftp_username --password=$xbox_ftp_password ftp://$xbox_ip/F/homebrew
+  #wget -m --user=$xbox_ftp_username --password=$xbox_ftp_password ftp://$xbox_ip/F/homebrew 2>&1 | tee -a $backup_log
   #echo "backup of homebrew: completed"
 ```
 
