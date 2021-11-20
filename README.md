@@ -10,10 +10,10 @@ xbox_ftp_password="xbox"
 
 backup_dir="/mnt/BACKUPS/XBOX/"
 
-backup_log="/home/server1/logs/xbox_backup.log"
+backup_log="/mnt/BACKUPS/logs/xbox_backup.log"
 
 ### Backup more Xbox directories and partitions
-The script will mainly backup the E and F partitions but if you want to backup other locations you can add them to the script. Uncomment and modify these lines.
+The script will mainly backup the E and F partitions. If you want to backup other locations, you can add them to the script. Uncomment and modify these lines.
 
 ```
   #sleep 3
@@ -25,4 +25,4 @@ The script will mainly backup the E and F partitions but if you want to backup o
 ```
 
 ### Notes
-The backup script will create a folder on the backup location using the IP of the Xbox. i.e: /BACKUPS/XBOX/192.168.0.153/F
+The backup script will check for a folder on the backup location that contains the IP of the Xbox. i.e: /BACKUPS/XBOX/192.168.0.50/F. You will need to create this directory path before running the backup script.
