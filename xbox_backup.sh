@@ -14,7 +14,7 @@ cd $backup_dir
 if [ -d "$xbox_ip/F" ]
 then
   echo "backup started..."
-  wget -m --user=$xbox_ftp_username --password=$xbox_ftp_password ftp://$xbox_ip/F/games 2>&1 | tee -a $backup_log
+  wget -m --user=$xbox_ftp_username --password=$xbox_ftp_password ftp://$xbox_ip/F 2>&1 | tee -a $backup_log
   echo "backup of games: completed"
   #sleep 3
   #wget -m --user=$xbox_ftp_username --password=$xbox_ftp_password ftp://$xbox_ip/F/roms 2>&1 | tee -a $backup_log
