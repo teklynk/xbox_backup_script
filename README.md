@@ -27,4 +27,4 @@ The script will mainly backup the E and F partitions. If you want to backup othe
 ### Notes
 The backup script will check for a folder on the backup location that contains the IP of the Xbox. i.e: /BACKUPS/XBOX/192.168.0.50/F. You will need to create this directory path before running the backup script.
 
-Make sure that the xbox_script.sh has execute permissions. chmod +x xbox_backup.sh
+Make sure that xbox_backup.sh has execute permissions. chmod +x xbox_backup.sh
