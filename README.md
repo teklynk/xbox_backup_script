@@ -2,11 +2,11 @@
 Bash script that will FTP to your modded Xbox and backup the partitions to a computer, NAS or other mount.
 
 ### Variables
-xbox_ip="192.168.0.50"
+xbox_ip="192.168.0.XX"
 
-xbox_ftp_username="xbox"
+xbox_ftp_username="xbox_ftp_username"
 
-xbox_ftp_password="xbox"
+xbox_ftp_password="xbox_ftp_password"
 
 backup_dir="/mnt/BACKUPS/XBOX/"
 
